@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkShop | E-Commerce Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <span class="glow">Dark</span>Shop
+        </div>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </header>
+
+    <!-- Product Listing -->
+    <section class="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/200/222222/cccccc?text=Headphones" alt="Wireless Headphones">
+            <h3>Wireless Headphones</h3>
+            <p>$49.99</p>
+            <button class="add-to-cart" data-id="1" data-name="Wireless Headphones" data-price="49.99" data-img="https://via.placeholder.com/200/222222/cccccc?text=Headphones">
+                <i class="fas fa-plus"></i> Add to Cart
+            </button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200/222222/cccccc?text=Smart+Watch" alt="Smart Watch">
+            <h3>Smart Watch</h3>
+            <p>$89.99</p>
+            <button class="add-to-cart" data-id="2" data-name="Smart Watch" data-price="89.99" data-img="https://via.placeholder.com/200/222222/cccccc?text=Smart+Watch">
+                <i class="fas fa-plus"></i> Add to Cart
+            </button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200/222222/cccccc?text=Speaker" alt="Bluetooth Speaker">
+            <h3>Bluetooth Speaker</h3>
+            <p>$29.99</p>
+            <button class="add-to-cart" data-id="3" data-name="Bluetooth Speaker" data-price="29.99" data-img="https://via.placeholder.com/200/222222/cccccc?text=Speaker">
+                <i class="fas fa-plus"></i> Add to Cart
+            </button>
+        </div>
+    </section>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h2><i class="fas fa-shopping-bag"></i> Your Cart</h2>
+            <button class="close-cart">&times;</button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items appear here -->
+        </div>
+        <div class="cart-total">
+            <h3>Total: $<span class="total-price">0.00</span></h3>
+            <button class="checkout-btn">Checkout <i class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
